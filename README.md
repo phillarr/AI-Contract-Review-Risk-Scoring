@@ -2,7 +2,13 @@
 
 A scenario that picks up new contracts dropped in a Google Drive folder, reads them with OCR, asks an AI agent (Claude) to review each clause and score its risk, then writes a risk report in Google Docs from a template.
 
+▶️ **Video tutorial:** [watch on YouTube](https://www.youtube.com/watch?v=dDmPzE5tA2I)
+
+[![Watch the tutorial on YouTube](https://img.youtube.com/vi/dDmPzE5tA2I/hqdefault.jpg)](https://www.youtube.com/watch?v=dDmPzE5tA2I)
+
 ## The scenario
+
+![Make.com scenario: Google Drive → Google Drive download → Google Cloud Vision → Make AI Agent (with knowledge) → JSON → Google Docs](images/make-scenario.png)
 
 ```
 Google Drive (new file) ──► Get file ──► Google Cloud Vision (OCR) ──► AI agent (review + risk scoring) ──► Parse JSON ──► Google Docs (report from template)
