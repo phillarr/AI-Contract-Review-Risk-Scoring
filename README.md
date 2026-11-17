@@ -70,3 +70,7 @@ You also need two Drive folders: one where you drop contracts, one where the rep
 - **Contract contents are sent to Google Cloud Vision and to the AI provider** for processing. Only use this with documents you are allowed to share with these services.
 - **API keys and OAuth tokens stay in your Make connections** and are never exported in the blueprint.
 - **Contracts are untrusted input.** A document could contain text designed to trick the AI (prompt injection) and lower a risk score. Never rely on the score alone.
+
+## License
+
+[MIT](LICENSE)
