@@ -1,6 +1,6 @@
 # AI Contract Review + Risk Scoring
 
-A [Make.com](https://www.make.com) scenario that picks up new contracts dropped in a Google Drive folder, reads them with OCR, asks an AI agent (Claude) to review each clause and score its risk, then writes a risk report in Google Docs from a template.
+A scenario that picks up new contracts dropped in a Google Drive folder, reads them with OCR, asks an AI agent (Claude) to review each clause and score its risk, then writes a risk report in Google Docs from a template.
 
 ## The scenario
 
